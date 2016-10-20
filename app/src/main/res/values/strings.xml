@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">E032_1020</string>
+    <string name="text_t1">嗨~你好</string>
+    <string name="text_t2">紅豆生南國，春來發幾枝。
+願君多采擷，此物最相思。</string>
+    <string name="text_t3">名子:游世宇</string>
+    <string name="text_t4">科系:資訊工程系</string>
+    <string name="text_t5">生日:82/12/17</string>
+    <string name="text_t6">電話:0922459455</string>
+    <string name="text_b1">主頁面</string>
+</resources>

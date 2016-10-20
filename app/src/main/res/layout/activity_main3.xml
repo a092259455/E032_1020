@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="tw.com.a4040e032.e032_1020.Main3Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t3"
+        tools:text="@string/text_t3"
+        android:text="@string/text_t3"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="90dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t4"
+        android:text="@string/text_t4"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/t3"
+        android:layout_alignStart="@+id/t3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t5"
+        android:text="@string/text_t5"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/t4"
+        android:layout_alignStart="@+id/t4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t6"
+        android:text="@string/text_t6"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/t5"
+        android:layout_alignStart="@+id/t5" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/hh"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/t6"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        tools:text="@string/text_b1"
+        android:text="@string/text_b1" />
+
+</RelativeLayout>
